@@ -129,6 +129,6 @@ public class vista {
                         return Comando.SUBIR_PUERTA_GARAJE;
                     case 3:
                         return Comando.BAJAR_PUERTA_GARAJE;
-}}      return null;
+}}      return Comando.APAGAR_SISTEMA;
     }
 }
