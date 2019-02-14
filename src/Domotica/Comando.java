@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vista;
+package Domotica;
 
 /**
  *
@@ -17,8 +17,10 @@ public enum Comando {
     APAGAR_SISTEMA(0,"apagar sistema"),
     CONSULTAR_HORA(1,"Consultar la hora del sistema"),
     MODIFICAR_HORA(2,"Modifica la hora de la centralita"),
-    CONSULTAR_FECHA(1,"Consultar la fecha del sistema"),
+    CONSULTAR_FECHA(25,"Consultar la fecha del sistema"),
+    METROS_CUADRADOS(26,"Consultar metros cuadrados"),
     //Garraje
+    CONSULTAR_PUERTA_GARAJE(27,"Consultar puerta del garaje"),
     SUBIR_PUERTA_GARAJE(3,"Subir puerta del garaje"),
     BAJAR_PUERTA_GARAJE(4, "Bajar puerta del garaje"),
     //orientacion
@@ -44,6 +46,7 @@ public enum Comando {
     FINALIZAR_VIGILANCIA_DORMITORIO(21,"Finalizar vigilacia dormitorio"),
     CONSULTAR_VIGILANCIA_SALON(22,"Consultar la camara del salon"),
     CONSULTAR_VIGILANCIA_DORMITORIO(23,"Consultar la camara del salon"),
+    //Terraza
     COMPROBAR_TERRAZA(24,"consulta la terraza del salon");
     
     private int codigo;
